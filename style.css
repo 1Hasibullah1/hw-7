@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgb(17, 37, 219);
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.icon-first {
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(180, 16, 16);
+    float: left;
+    margin-right: 1%;
+}
+
+.icon-first:nth-child(2) {
+    margin-right: 0;
+}
+
+.icon-second {
+    float: left;
+    width: 150px;
+    height: 300px;
+    border: 10px solid rgb(180, 16, 16);
+    margin-left: 10px;
+}
+
+.container-inner {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.big {
+    border: 10px solid rgb(180, 16, 16);
+    width: 350px;
+    height: 350px;
+    float: left;
+}
+
+.small {
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(180, 16, 16);
+    margin: 0 0 50px 10px;
+}
+
+.box {
+    float: left;
+}
+
+.container-center {
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+}
